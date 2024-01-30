@@ -1,0 +1,76 @@
+* {
+    background-color: rgba(34,34,34);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+    background-color: rgba(34,34,34,0.31);
+
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 5px rgb(0,0,0,0.2);
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    width: auto;
+}
+
+.block {
+    background-color: white;
+    margin: 15px;
+
+}
+
+input {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    outline: 1px solid rgba(0,0,0,0.31);
+    border: none;
+    border-radius: 5px;
+    font-family: Verdana;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.currencies {
+    margin: 15px auto;
+    padding: 0;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    outline: 1px solid rgba(0,0,0,0.31);
+    border-radius: 5px;
+    align-content: flex-start;
+
+}
+
+.currencies > li {
+    background-color: white;
+    padding: 5px;
+    outline: 1px solid rgba(0,0,0,0.31);
+    font-family: Verdana;
+    font-size: large;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.currencies > .active {
+    background-color: white;
+    padding: 5px;
+    background-color: rgba(57,255,0,0.31);
+    font-family: Verdana;
+    font-size: large;
+    width: 100%;
+    box-sizing: border-box;
+}
+
